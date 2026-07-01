@@ -12,9 +12,14 @@
     "mg": "drizzle-kit generate:pg --schema=./app/db/schema.ts"
   },
   "dependencies": {
+    "@comark/nuxt": "0.4.0",
     "@iconify-json/lucide": "^1.2.114",
     "@iconify-json/simple-icons": "^1.2.87",
+    "@nuxt/icon": "^2.2.5",
+    "@nuxt/image": "2.0.0",
     "@nuxt/ui": "^4.9.0",
+    "@tailwindcss/vite": "^4.3.1",
+    "comark": "^0.4.0",
     "drizzle-orm": "1.0.0-rc.4",
     "nuxt": "^4.4.8",
     "pg": "^8.22.0",

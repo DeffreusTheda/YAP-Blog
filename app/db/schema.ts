@@ -14,6 +14,7 @@ export const posts = pgTable('posts', {
   slug: text('slug').notNull().unique(),
   content: text('content').notNull(),
   excerpt: text('excerpt'),
+  pinned: boolean('pinned').default(false),
   published: boolean('published').default(false),
   publishedAt: timestamp('published_at'),
   createdAt: timestamp('created_at').defaultNow(),
